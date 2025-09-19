@@ -38,5 +38,5 @@ all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
 
 [patch.crates-io]
-geo-types = { git = "https://github.com/georust/geo", branch = "main", package = "geo-types" }
-geo-traits = { git = "https://github.com/georust/geo", branch = "main", package = "geo-traits" }
+geo-types = { git = "https://github.com/wherobots/geo", branch = "generic-alg", package = "geo-types" }
+geo-traits = { git = "https://github.com/wherobots/geo", branch = "generic-alg", package = "geo-traits" }
